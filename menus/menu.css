@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #000000;
+	}
+#header-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: white url(../images/background.jpg) no-repeat center;
+		background-size:cover; 
+	}
+#menu ul
+	{
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #e97874;
+		color: #FFF;
+	}
+	
+	#logo
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#logo h1
+	{
+		display: inline-block;
+		margin-bottom: 0.50em;
+		padding: 0.20em 1em;
+		background: #e97874;
+		font-size: 3.5em;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	
+	#logo span
+	{
+		display: block;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 1.1em;
+		color: black;
+	}
+	
+	#welcome
+	{
+		overflow: hidden;
+		padding: 4em 0em;
+		text-align: center;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#welcome .content
+	{
+		padding: 0em 0em;
+	}
+	
+	#welcome a,
+	#welcome strong
+	{
+		color: rgba(255,255,255,0.6);
+	}
+    #welcome h2
+	{display: inline-block;
+		margin-bottom: 0.50em;
+		padding: 0.20em 1em;
+		font-size: 3em;
+	}
+	.ramen-menu {
+  background: #f6ad49 url("../images/b2.jpg") left top;
+  background-size: 81px 159px;
+	} 
+	
+  .ramen-menu h1 {
+    margin-bottom: 40px; 
+	font-size: 3em;
+	}
+  .ramen-menu li {list-style-type: none; 
+ 
+   }
+   
+[role="main"] .menu-item-wrap {
+  margin-bottom: 80px;
+  position: relative; }
+  [role="main"] .menu-item-wrap:nth-of-type(odd) {
+    clear: left; }
+  [role="main"] .menu-item-wrap .menu-item-inner {
+    position: relative; }
+    @media all and (min-width: 28.75em) {
+      [role="main"] .menu-item-wrap .menu-item-inner {
+        max-width: 400px;
+        margin: auto; } }
+    @media all and (min-width: 48.75em) {
+      [role="main"] .menu-item-wrap .menu-item-inner {
+        max-width: auto;
+        margin: 0; } }
+  [role="main"] .menu-item-wrap h4 {
+    font-family: "Economica", sans-serif;
+    color: #433d3c;
+    font-size: 50px;
+    font-size: 3.125rem;
+    font-weight: 700;
+    letter-spacing: 0; }
+  [role="main"] .menu-item-wrap .menu-item-price {
+    color: #e60033;
+    font-size: 25px;
+    font-size: 1.5625rem; }
+  [role="main"] .menu-item-wrap .menu-item-broth {
+    font-family: "Walter Turncoat", cursive;
+    color: #433d3c;
+    font-size: 30px;
+    font-size: 1.875rem; }
+  [role="main"] .menu-item-wrap ul {
+    margin-bottom: 0; }
+    [role="main"] .menu-item-wrap ul li {
+      margin-bottom: 2px;
+      line-height: 1.2;
+      color: white;
+      font-size: 17px;
+      font-size: 1.0625rem; }
+      [role="main"] .menu-item-wrap ul li.callout {
+        color: #e60033;
+        margin-top: 15px; }
+  [role="main"] .menu-item-wrap img {
+    max-width: 200px;
+    position: absolute;
+    top: 50px;
+    right: -100px; }
+    @media all and (min-width: 20.625em) {
+      [role="main"] .menu-item-wrap img {
+        top: 40px;
+        right: -50px; } }
+    @media all and (min-width: 28.75em) {
+      [role="main"] .menu-item-wrap img {
+        max-width: 238px; } }
+    @media all and (min-width: 48.75em) {
+      [role="main"] .menu-item-wrap img {
+        top: 10px;
+        left: auto; } }
+    @media all and (min-width: 64em) {
+      [role="main"] .menu-item-wrap img {
+        right: -60px; } }
+
+.bottom-images img,
+.middle-images img {
+  display: block; }
+  @media all and (min-width: 28.75em) {
+    .bottom-images img,
+    .middle-images img {
+      width: 33.33334%;
+      float: left; } }
+
+h4 {
+  color: #e60033;
+  margin-bottom: 0;
+  font-size: 2.8em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  
+  .menu-item-price {
+	  color: #000000;}
+	
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}

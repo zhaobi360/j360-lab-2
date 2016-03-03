@@ -20,7 +20,7 @@ html, body
 		overflow: hidden;
 		padding: 5em 0em;
 		background: white url(../images/background2.jpg);
-		background-repeat: repeat-y;
+		background-repeat: repeat;
 		
 	}
 #menu ul
@@ -121,6 +121,7 @@ html, body
 	font-size: 3em;
 	}
   .ramen-menu li {list-style-type: none; 
+     color: black;
  
    }
    

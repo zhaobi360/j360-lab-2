@@ -64,13 +64,10 @@ html, body
 	  float: right;
 	  padding-right:10px;}
 	  
-	iframe {
-		
-    text-align: center;
-	       display:block;}
-	  
-  .maps {text-align: center;}
-	  
+   .maps {display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
    .maps p {
 	  color: red;}
 	 .maps b {
@@ -99,4 +96,28 @@ html, body
 	{
 		text-decoration: none;
 		color: rgba(255,255,255,0.6);
+	}
+	
+	@media (min-width: 768px) {
+    #menu {
+        width: 95%;
+        margin: 4px auto;
+    }
+
+    header {
+        float: none;
+        width: 100%;
+    }
+
+    
+    section {
+        float: none;
+        width: 100%;
+    }
+	#mapcanvas  {display: block;
+    margin-left: 3.5em;
+     }
+	#mapcanvas2 {display: block;
+		margin-right: 3.5em;
+}
 	}

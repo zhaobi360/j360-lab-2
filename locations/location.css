@@ -55,3 +55,69 @@ html, body
 		background: #e97874;
 		color: #FFF;
 	}
+	
+	#mapcanvas {
+		float: left;
+		padding-left: 10px;}
+
+  #mapcanvas2 {
+	  float: right;
+	  padding-right:10px;}
+	  
+   .maps {display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+   .maps p {
+	  color: red;}
+	 .maps b {
+		color: #000000;}
+	.maps a {
+		color: red;
+		text-decoration: none;}
+	  
+#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+	
+	@media (min-width: 768px) {
+    #menu {
+        width: 95%;
+        margin: 4px auto;
+    }
+
+    header {
+        float: none;
+        width: 100%;
+    }
+
+    
+    section {
+        float: none;
+        width: 100%;
+    }
+	#mapcanvas  {display: block;
+    margin-left: 3.5em;
+     }
+	#mapcanvas2 {display: block;
+		margin-right: 3.5em;
+}
+	}

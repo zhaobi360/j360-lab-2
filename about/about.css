@@ -7,7 +7,6 @@ html, body
 	
 	body
 	{
-		height:100%;
 		margin: 0px;
 		padding: 0px;
 		background: #A28686;
@@ -47,9 +46,6 @@ html, body
 		color: #FFF;
 	}
 	
-	#menu li:hover a, #menu li.active a, #menu li.active span
-	{
-	}
 	
 	#menu .current_page_item a
 	{
@@ -57,16 +53,35 @@ html, body
 		color: #FFF;
 	}
 	
-		
-		.main {
-	  margin-left:1em;
-	  height: auto;
-      width: 100%;
-      padding: 0 14px;
-      padding: 0 0.875rem; }
-      
-	 
+	h1 {
+		font-size: 3.5em;
+		text-align:center;
+	}
 	
+	.main h1 {
+  margin-bottom: 40px; }
+.main article {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+  @media all and (min-width: 64em) {
+    .main article {
+      margin-bottom: 40px;
+      padding-bottom: 40px; } }
+  .main article p, .main article ul {
+    font-size: 17px;
+    font-size: 1.0625rem;
+    line-height: 1.8; }
+  
+  .main article h2 {
+    line-height: 1.3;
+    margin-bottom: 0px;
+	 }
+	
+	
+  
+
+
 	#copyright
 	{   background: #333333;
 		overflow: hidden;

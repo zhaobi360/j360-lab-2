@@ -53,7 +53,8 @@
 		text-decoration: none;
 	}
 	
-	 .byline {color: #000000;}
+	 span.byline {color: #000000;
+	 }
 		
 			form .submit
 			{

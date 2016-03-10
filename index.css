@@ -53,7 +53,8 @@
 		text-decoration: none;
 	}
 	
-			
+	 .byline {color: #000000;}
+		
 			form .submit
 			{
 				margin-top: 2em;
@@ -293,6 +294,7 @@
 		padding: 8em 0em;
 		background: #EDEDED;
 		text-align: center;
+	
 	}
 	
 	#newsletter .title h2
@@ -304,8 +306,9 @@
 	{
 		width: 600px;
 		margin: 0px auto;
+		text-align:center;
 	}
-
+	
 	@media (min-width: 768px) {
 		 body {
         color: #6c42d6;
@@ -318,6 +321,10 @@
     max-width: 100%;
     height: auto;
 }
+    .container {
+	 max-width: 100%;
+    height: auto;
+}	
 	}
 	@media (min-width: 992px) {
 		
@@ -335,6 +342,10 @@
     max-width: 100%;
     height: auto;
 }
+    .container {
+	 max-width: 100%;
+    height: auto;
+}	
 }
 @media (min-width: 1200px) {
     body {
@@ -351,7 +362,11 @@
 	#header-wrapper {
     max-width: 100%;
     height: auto;
-}
+}   
+    .container {
+	 max-width: 100%;
+    height: auto;
+}	
 }
 @media (min-width: 1900px) {
 	body {
@@ -362,6 +377,10 @@
     max-width: 100%;
     height: auto;
 }
+    .container {
+	 max-width: 100%;
+    height: auto;
+}	
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -374,5 +393,22 @@
 	#header-wrapper {
     max-width: 100%;
     height: auto;
-}
+}   
+    #newsletter {
+		width: 95%;
+		float:none;
+	}
+
 } 
+/* For 480px or less */  
+@media screen and (max-width: 480px){  
+body {
+        width: 95%;}
+#newsletter {
+		width: 95%;
+		float:none;
+	}
+}
+
+		
+		

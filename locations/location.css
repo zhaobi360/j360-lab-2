@@ -56,9 +56,16 @@ html, body
 		color: #FFF;
 	}
 	
+	iframe { width:450px;
+	 height:350px;  
+	 frameborder:0;
+	}
+	
+	
 	#mapcanvas {
 		float: left;
-		padding-left: 10px;}
+		padding-left: 10px;
+	}
 
   #mapcanvas2 {
 	  float: right;

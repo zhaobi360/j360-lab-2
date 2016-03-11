@@ -116,7 +116,7 @@ html, body
         display:block; 
         height: auto;
 	}
-	.content {float:center;
+	.content {float:initial;
 	}
 		
 	.ramen-menu {
@@ -145,7 +145,7 @@ html, body
         margin: auto; } }
     @media all and (min-width: 48.75em) {
       [role="main"] .menu-item-wrap .menu-item-inner {
-        max-width: auto;
+        max-width:inherit;
         margin: 0; } }
  
     @media all and (min-width: 20.625em) {

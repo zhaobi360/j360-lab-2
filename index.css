@@ -382,9 +382,12 @@
 	 max-width: 100%;
     height: auto;
 }	
+h2 {
+		visibility: hidden;
+	}
 }
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+    /* For tables: */
     body {
         width: 100%;
     }
@@ -394,22 +397,31 @@
 	#header-wrapper {
     max-width: 100%;
     height: auto;
-}   
-    #newsletter {
-		width: 95%;
-		float:none;
-	}
+    } 
+  
+  .social-icons-home {width:100%;
+  text-align: center;
+  height: auto;
 
-} 
-/* For 480px or less */  
-@media screen and (max-width: 480px){  
-body {
-        width: 95%;}
-#newsletter {
-		width: 95%;
+  }
+  
+  .ending  {width:100%;
+  text-align: center;
+  }
+  img {display: block;
+		margin: 0 auto 24px;
 		float:none;
 	}
+ 
+
 }
 
-		
-		
+@media only screen and (max-width: 414px) {
+	/* For mobile phones (iPhone 6/6s: */	
+	.social-icons-home {width: 67%;
+}
+  .ending {width: 67%;
+}
+  form {width: 67%;
+}
+}

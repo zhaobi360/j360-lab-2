@@ -121,3 +121,29 @@ html, body
 		margin-right: 3.5em;
 }
 	}
+	
+	@media (max-width: 768px) {
+		header {
+        float: none;
+        width: 100%;
+    }
+
+    body 
+	{height: 95%;
+	}
+	
+    section {
+        float: none;
+        width: 100%;
+    }
+	#mapcanvas  {display: block;
+    width:500px;
+	padding-left: 10px;
+     }
+	#mapcanvas2 {
+		width:500px;
+		float: left;
+		padding-left: 10px;
+		padding-right: 10px;
+}
+	}
